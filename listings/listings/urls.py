@@ -9,3 +9,4 @@ router.register(r'bookings', BookingViewSet, basename='booking')
 urlpatterns = [
     path('', include(router.urls)),
 ]
+cp -r alx_travel_app_0x00 alx_travel_app_0x01
